@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+/* Background animation */
+@keyframes animate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #323334;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 24s linear infinite;
+}
+
+.background li:nth-child(0) {
+  left: 21%;
+  width: 105px;
+  height: 105px;
+  bottom: -105px;
+  animation-delay: 1s;
+}
+
+.background li:nth-child(1) {
+  left: 8%;
+  width: 131px;
+  height: 131px;
+  bottom: -131px;
+  animation-delay: 5s;
+}
+
+.background li:nth-child(2) {
+  left: 25%;
+  width: 89px;
+  height: 89px;
+  bottom: -89px;
+  animation-delay: 8s;
+}
+
+.background li:nth-child(3) {
+  left: 61%;
+  width: 162px;
+  height: 162px;
+  bottom: -162px;
+  animation-delay: 8s;
+}
+
+.background li:nth-child(4) {
+  left: 62%;
+  width: 173px;
+  height: 173px;
+  bottom: -173px;
+  animation-delay: 4s;
+}
+
+.background li:nth-child(5) {
+  left: 3%;
+  width: 94px;
+  height: 94px;
+  bottom: -94px;
+  animation-delay: 15s;
+}
+
+.background li:nth-child(6) {
+  left: 1%;
+  width: 125px;
+  height: 125px;
+  bottom: -125px;
+  animation-delay: 25s;
+}
+
+.background li:nth-child(7) {
+  left: 17%;
+  width: 123px;
+  height: 123px;
+  bottom: -123px;
+  animation-delay: 23s;
+}
+
+.background li:nth-child(8) {
+  left: 60%;
+  width: 122px;
+  height: 122px;
+  bottom: -122px;
+  animation-delay: 19s;
+}
+
+.background li:nth-child(9) {
+  left: 29%;
+  width: 137px;
+  height: 137px;
+  bottom: -137px;
+  animation-delay: 43s;
+}
+
+.fullscreen {
+  display:flex;
+  margin: auto;
+  min-height: 100vh;
+  align-items: center;
+}

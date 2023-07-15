@@ -1,7 +1,16 @@
 export default function About() {
   return (
-    <section>
-      <h1>Hi there! I'm <span>Noah Hagar-Dent</span>, a Software Engineering student at the University of Auckland.</h1>
-    </section>
+    <div className='fullscreen'>
+      <div className='container-fluid text-center'>
+        <div className='row'>
+          <div className='col'>
+            <h2>About Me</h2>
+          </div>
+          <div className='col'>
+            <h2>My Tech Stack</h2>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
