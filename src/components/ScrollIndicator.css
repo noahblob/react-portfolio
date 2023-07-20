@@ -1,0 +1,14 @@
+.progressMainWrapper {
+  background-color: #000;
+  height: 15px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.progressMainStyle {
+  height: 15px;
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
