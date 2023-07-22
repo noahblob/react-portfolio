@@ -13,7 +13,7 @@ import pythonicon from '../resources/icons/python.svg';
 
 export default function About() {
   return (
-    <div className='fullscreen w-75'>
+    <div className='fullscreen w-75' id='about'>
       <div className='container-fluid text-center'>
         <Fade Top>
           <div className='row'>
