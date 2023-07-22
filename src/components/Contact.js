@@ -32,7 +32,7 @@ export default function Contact() {
         </div>
 
         <div className='mb-5'>
-          <button className='btn btn-primary' type='submit' name='send'>Send</button>
+          <button className='rounded nice-button' type='submit' name='send'>Send</button>
         </div>
       </form>
     </div>
