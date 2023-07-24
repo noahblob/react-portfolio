@@ -165,12 +165,27 @@ main {
   align-items: center;
 }
 
+.profile-img {
+  border: 2px solid #fff;
+}
+
 .icon {
   width: 80px;
   height: 80px;
   background-color: #fff;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 10px;
+}
+
+.link-icon {
+  width: 65px;
+  height: 65px;
+  transition: 400ms ease-in-out;
+}
+
+.link-icon:hover {
+  background: rgba(0,0,0,0.3);
   border-radius: 10px;
 }
 

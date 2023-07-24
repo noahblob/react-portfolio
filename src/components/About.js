@@ -10,6 +10,8 @@ import htmlicon from '../resources/icons/html.svg';
 import cssicon from '../resources/icons/css.svg';
 import javascripticon from '../resources/icons/javascript.svg';
 import pythonicon from '../resources/icons/python.svg';
+import githubwhite from '../resources/icons/github-white.svg';
+import linkedin from '../resources/icons/linkedin.svg';
 
 export default function About() {
   return (
@@ -18,7 +20,14 @@ export default function About() {
         <Fade Top>
           <div className='row'>
             <div className='col-lg my-auto'>
-              <img src={profile} alt='Profile' className='img-fluid rounded-circle p-3' height='500' width='500' />
+              <img src={profile} alt='Profile' className='profile-img img-fluid rounded-circle m-3' height='500' width='500' />
+              <div className='row'>
+                <div className='col'>
+                  <a href='https://github.com/noahblob'><img src={githubwhite} alt='Github' className='link-icon img-fluid p-2' /></a>
+                  <a href='https://www.linkedin.com/in/noah-hagar-dent/'><img src={linkedin} alt='LinkedIn' className='link-icon img-fluid p-2' /></a>
+                </div>
+              </div>
+
               <h1 className='font-weight-bold'>About Me</h1>
               <p>I'm an aspiring Software Engineer based in Auckland, New Zealand. I am passionate about front-end and back-end development and I consistently strive to do my best in all areas of my life: Personal, professional and academic.</p>
             </div>
