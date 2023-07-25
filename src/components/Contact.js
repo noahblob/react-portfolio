@@ -12,7 +12,7 @@ export default function Contact() {
         <input type='hidden' name='_captcha' value='false' />
 
         {/* Redirect on form submission */}
-        <input type='hidden' name='_next' value='https://noahblob.github.io' />
+        <input type='hidden' name='_next' value='https://noahblob.github.io/react-portfolio' />
 
         <Fade top>
           <div className='mb-5'>
