@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.28e90d26.css",
+    "main.js": "/react-portfolio/static/js/main.62a7c50a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.8bf9f422bbc17115c6ca.jpg",
+    "static/media/java.svg": "/react-portfolio/static/media/java.3f07ed8db7bcb55da497b664422bf80f.svg",
+    "static/media/python.svg": "/react-portfolio/static/media/python.60d3030b973e3a9d874e54021bb3282e.svg",
+    "static/media/github-white.svg": "/react-portfolio/static/media/github-white.77285c19dd60b814154bfaa65cbf6d24.svg",
+    "static/media/javascript.svg": "/react-portfolio/static/media/javascript.37270e3adc5620c25b5e9b9b6cc900d6.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.c3907bd8b8e0c9f532e7b133444e1d47.svg",
+    "static/media/html.svg": "/react-portfolio/static/media/html.10a58682adde3b5e6f2be37de92758cf.svg",
+    "static/media/css.svg": "/react-portfolio/static/media/css.0b435e818710854aebd35efe9280f77c.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.28e90d26.css.map": "/react-portfolio/static/css/main.28e90d26.css.map",
+    "main.62a7c50a.js.map": "/react-portfolio/static/js/main.62a7c50a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28e90d26.css",
+    "static/js/main.62a7c50a.js"
+  ]
+}
