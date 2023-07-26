@@ -28,30 +28,30 @@ export default function About() {
                 </div>
               </div>
 
-              <h1 className='font-weight-bold'>About Me</h1>
+              <h1 className='font-weight-bold'><strong>About Me</strong></h1>
               <p>I'm an aspiring Software Engineer based in Auckland, New Zealand. I am passionate about front-end and back-end development and I consistently strive to do my best in all areas of my life: Personal, professional and academic.</p>
             </div>
             <div className='col-lg my-auto'>
-              <h2 className='pb-2'>My Tech Stack</h2>
+              <h1 className='pb-2'><strong>My Tech Stack</strong></h1>
 
               <Tooltip placement='bottom' overlay={<span>Java</span>}>
-                <img src={javaicon} alt='Java' className='icon img-fluid p-2' />
+                <img src={javaicon} alt='Java' className='icon img-fluid p-2 m-2' />
               </Tooltip>
 
               <Tooltip placement='bottom' overlay={<span>HTML</span>}>
-                <img src={htmlicon} alt='HTML' className='icon img-fluid p-2' />
+                <img src={htmlicon} alt='HTML' className='icon img-fluid p-2 m-2' />
               </Tooltip>
 
               <Tooltip placement='bottom' overlay={<span>CSS</span>}>
-                <img src={cssicon} alt='CSS' className='icon img-fluid p-2' />
+                <img src={cssicon} alt='CSS' className='icon img-fluid p-2 m-2' />
               </Tooltip>
 
               <Tooltip placement='bottom' overlay={<span>JavaScript</span>}>
-                <img src={javascripticon} alt='JavaScript' className='icon img-fluid p-2' />
+                <img src={javascripticon} alt='JavaScript' className='icon img-fluid p-2 m-2' />
               </Tooltip>
 
               <Tooltip placement='bottom' overlay={<span>Python</span>}>
-                <img src={pythonicon} alt='Python' className='icon img-fluid p-2' />
+                <img src={pythonicon} alt='Python' className='icon img-fluid p-2 m-2' />
               </Tooltip>
 
               <p className='pt-3'>Being relatively new to software engineering, I am always looking for new ways to challenge myself and learn new programming skills. I look to expand my tech stack further in the future as well as hone my current skills.</p>

@@ -10,19 +10,6 @@ export default function Home() {
           <Link to='#about' smooth style={{ color: '#fff' }}><button className='h4 nice-button p-2' href=''>Learn more about me</button></Link>
         </Fade>
       </div>
-      <ul className='background'>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-
     </div>
   );
 }

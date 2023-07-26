@@ -3,8 +3,10 @@ import Fade from 'react-reveal/Fade';
 export default function Projects() {
   return (
     <div className='fullscreen'>
+      
       <section className='container-fluid text-left w-50'>
         <Fade top>
+          <h1 className='text-center pb-3'><strong>My Projects</strong></h1>
           <div className='mb-5'>
             <h2>This Portfolio</h2>
             <p className='nice-border p-3'>Made with HTML, CSS and JavaScript using the React library and Bootstrap framework for responsive styling.</p>
