@@ -22,19 +22,14 @@ const CursorDot = () => {
   return (
     <>
       <div
+        className='cursor'
         style={{
-          position: 'fixed',
-          width: '10px',
-          height: '10px',
-          borderRadius: '50%',
-          background: '#fff',
-          pointerEvents: 'none', // Prevents the dot from interfering with other elements
           left: `${posX}px`,
           top: `${posY}px`,
         }}
       />
       <style>{`
-        a, button, TopButton, Link {
+        button:hover {
           cursor: none; /* Hide the actual cursor when hovering over links */
         }
       `}</style>
