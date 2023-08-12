@@ -232,3 +232,12 @@ main {
   background: #fff;
   pointer-events: none;
 }
+
+.underline-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.underline-link:hover {
+  text-decoration: underline;
+}

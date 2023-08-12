@@ -29,7 +29,7 @@ const CursorDot = () => {
         }}
       />
       <style>{`
-        button:hover {
+        button, button:hover, button:after {
           cursor: none; /* Hide the actual cursor when hovering over links */
         }
       `}</style>
